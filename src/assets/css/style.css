@@ -1,0 +1,325 @@
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/*Global STYLE*/
+.coloringBackground {
+  background-color: #f0f1f3;
+}
+.topicTitleFont {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.topicTitleFontBackgroundImage {
+  color: #fdab57;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.active {
+  text-decoration: none;
+
+  background-color: #ada8a8af;
+  border-radius: 8px;
+}
+.paragraphImageFont {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* .backgroundTitle {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: white; }
+  50% { color: blue; }
+  100% { color: white; }
+} */
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/*LOGIN STYLE*/
+.login-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* z-index: 1; */
+}
+.loginContainer {
+  background-color: #12235f;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.back-ground {
+  background-color: #12235f;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.sign-up-background {
+  background-color: #12235f;
+}
+/* label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  select,input{
+    border:none;
+    border-bottom: 1px solid black;
+  } */
+.errorSchema {
+  color: red;
+}
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/* Scroll Up Style*/
+.scrollTop {
+  position: fixed;
+  width: 180%;
+  bottom: 20px;
+  height: 10%;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/* NAVBAR STYLE*/
+.userName {
+  color: #000;
+}
+.tog-btn {
+  color: #12235f;
+  background-color: #e7eaed;
+}
+.item {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.item:hover {
+  text-decoration: none;
+}
+.sigInItem {
+  color: white;
+}
+.navHeader {
+  background-color: blanchedalmond;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  position: fixed;
+  float: left;
+  /* margin: 16px 36px; */
+  font-weight: bold;
+  /* font-size: 24px; */
+  color: white;
+}
+/* nav{
+    width: 100%;
+    z-index: 1;
+    background-color: #162B75;
+  
+  }
+  nav ul{
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+  }
+  nav.black{
+    background: #162B75;
+    position: sticky;
+  }
+
+  nav ul li{
+    display: inline-block;
+    padding: 20px;
+  }
+  nav ul li NavLink{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .navbarDropdown{
+    z-index: 1;
+  } */
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/* LANDING PAGE */
+.backgroundTitle {
+  font-size: 100px;
+  color: white;
+  font-family: Helvetica neue;
+}
+.langinpage {
+  position: relative;
+}
+.header-landing {
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.p_landingPage {
+  font-size: 25px;
+}
+.div_header {
+  position: absolute;
+  z-index: 1;
+}
+.visits-div {
+  background-color: #e7eaed;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.search-input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 25px;
+  color: #162b75;
+}
+.cblContent {
+  height: 70vh;
+  background-color: #162b75;
+}
+/* .cblContentImage {
+  background-image: url("/src/assets/images/various_photos/bn.jpg");
+  height: 70vh;
+} */
+
+@media only screen and (max-width: 450px) {
+  .backgroundTitle {
+    font-size: 70px;
+  }
+}
+/************************************************************************************************************************************************/
+/************************************************************************************************************************************************/
+/* Pagination Style */
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: cadetblue;
+  cursor: pointer;
+}
+.paginationBttns a:hover {
+  color: white;
+  background-color: royalblue;
+}
+.PaginationActive a {
+  color: white;
+  background-color: royalblue;
+}
+.perviousBttn a:hover {
+  text-align: none;
+}
+.nextBttn a:hover {
+  text-align: none;
+}
+/*Registeration Page*/
+.detailsBackground {
+  background-color: #e9ebec;
+}
+.background-white {
+  background-color: #fff;
+}
+/******************************************************************************************************************************************************/
+
+/* Footer Style */
+.footer-sec {
+  background-color: #162b75;
+  height: auto;
+}
+.h5_footer,
+.copy_write,
+.location,
+.email_address {
+  color: white;
+}
+.linked,
+.twit,
+.face,
+.ytube,
+.insta {
+  color: white;
+}
+.face:hover {
+  color: #007acc;
+}
+.twit:hover {
+  color: #1a91da;
+}
+.ytube:hover {
+  color: #c31a1e;
+}
+.insta:hover {
+  color: #e94437;
+}
+.linked:hover {
+  color: #0073b2;
+}
+
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/********************************* User Profile ****************************/
+
+.avatarImage {
+  position: relative;
+}
+.userProfile {
+  background-color: #e9ebec;
+}
+.userName {
+  background-image: url("../../assets/images/various_photos/shutterstock_1149795266.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  min-height: 50vh;
+  background-attachment: fixed;
+}
+/******************************************************************************************************************************************************/
+/******************************************************************************************************************************************************/
+/********************************* Visits Style ****************************/
+
+.visitsCover {
+  height: 70vh;
+  background: url("/src/assets/images/various_photos/shutterstock_1198655401a.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}

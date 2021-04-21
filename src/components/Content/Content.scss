@@ -1,0 +1,14 @@
+// import mixins from styles folder in assets folder
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variable';
+
+.content-field{
+    background-color:$background-color;
+    min-height: 30vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__paragraph{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "faculties": [
+    {
+      "id": 1,
+      "title": "Faculty of Engineering",
+      "image": "/facultiesImages/engineering.jpg",
+      "about": "The Faculty of Engineering is fostering responsibility for innovative technical implementation by addressing the burning issues related to the environment, society and economics through a specialized engineering curricula that are complemented by the core courses. In addition, the concept of sustainability is directly integrated into all the educational activities."
+    },
+    {
+      "id": 2,
+      "title": "Faculty of Business and Economics",
+      "image": "/facultiesImages/business.jpg",
+      "about":" The Faculty of Business and Economics is at the forefront of innovative and alternative models applied in business and economics. We are committed to fostering a system that is simultaneously ethical, successful, and competitive, empowering our graduates with a unique set of opportunities and skills."
+    },
+    {
+      "id": 3,
+      "title": "Faculty of Pharmacy",
+      "image": "/facultiesImages/pharmacy.jpg",
+      "about":"The Faculty of Pharmacy complements the Egyptian pharmaceutical sector and society with capable and skilled graduates who are dedicated to the improvement of pharmaceutical services and facilities. The comprehensive approach towards a sustainable study of pharmaceutics is further enriched by a comprehensive core program."
+    },
+    {
+      "id": 4,
+      "title": "Faculty of Physical Therapy",
+      "image": "/facultiesImages/physical-therapy.jpg",
+      "about":"Faculty of Physical Therapy pioneers a state-of-the art approach towards teaching and researching the field of Physiotherapy that heals and integrates the mind, body, and energy of the patients in a way that reflects their real needs and problems and solves them in a sustainable and continuous way"
+    },
+    {
+      "id": 5,
+      "title": "Faculty of Organic Agriculture",
+      "image": "/facultiesImages/organic-agriculture.jpg",
+      "about":"Faculty of Organic Agriculture strives to be among the leading institutions in teaching, learning, research in the field of organic agriculture to serve the Egyptian community."
+    }
+  ]
+}

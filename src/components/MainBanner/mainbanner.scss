@@ -1,0 +1,69 @@
+// import mixins from styles folder in assets folder
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variable';
+
+.banner {
+  min-height: 100vh;
+  position: relative;
+  background-image: url('../../assets/images/various_photos/mainCover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  //  background-attachment: fixed;
+  @include atSmallestScreen{
+    min-height: 30vh;
+  }
+  @include atSmScreen{
+    min-height: 40vh;
+  }
+  @include atMdScreen {
+    min-height: 50vh;
+  }
+  @include atLgScreen {
+    min-height: calc(100vh);
+  }
+
+  &__hero {
+    // padding: 50px 290px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 15%);
+
+    @include atMdScreen {
+      transform: translate(20%, 15%);
+    }
+
+    @include atXLScreen {
+      transform: translate(20%, 15%);
+    }
+  }
+  &__title {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    color:$primary-color;
+    @include atSmallestScreen{
+      font-size: 25px;
+    }
+    @include atSmScreen{
+      font-size: 30px;
+    }
+    @include atMdScreen {
+      font-size: 60px;
+    }
+    @include atLgScreen {
+      font-size: 60px;
+    }
+    @include atXLScreen {
+      font-size: 70px;
+    }
+  }
+  &__titleSpan{
+    font-size: 30px;
+  }
+ 
+}

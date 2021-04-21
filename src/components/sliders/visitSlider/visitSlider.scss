@@ -1,0 +1,12 @@
+@import "../../../assets/styles/mixins";
+@import '../../../assets/styles/variable';
+
+.client-image-container {
+    text-align: center;
+    outline: none;
+  }
+  
+  .client-image {
+    display: block;
+    margin: 0 auto;
+  }

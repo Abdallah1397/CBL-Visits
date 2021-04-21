@@ -1,0 +1,38 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/variable";
+.projects{
+    transition: box-shadow 0.3s ease-in-out;
+    width:90%;
+    float: left;
+    margin-left: 5%;
+    justify-content: center;
+    @include atMdScreen{
+      width: 45%;
+      margin-left: 5%;
+  
+    }
+    @include atLgScreen {
+      margin-left:11%;
+  
+    }
+    &:hover {
+      box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
+    }
+    &__image-container{
+        border: 5px solid $border-color;
+        border-bottom: none;
+        justify-content: center;
+    }
+    &__image {
+        display: block;
+        width: 60%;
+        min-height: 200px;
+        object-fit: contain;
+        margin: 0 auto;
+    
+        @include atMdScreen {
+          min-height: 350px;
+          width: 80%;
+        }
+      }
+}
