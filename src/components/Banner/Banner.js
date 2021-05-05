@@ -1,9 +1,12 @@
-import './Banner.scss';
+import "./Banner.scss";
 
-const Banner=({image})=>{
-    return(
-        <div style={{backgroundImage:`url(${image})`,}} className="about-banner">
-            </div>
-    )
-}
+// Cover Image For any Static Page
+const Banner = ({ image }) => {
+  return (
+    <div
+      style={{ backgroundImage: `url(${image})` }}
+      className="about-banner"
+    ></div>
+  );
+};
 export default Banner;

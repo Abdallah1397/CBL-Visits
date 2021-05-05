@@ -1,0 +1,53 @@
+@import "../../assets/styles/mixins.scss";
+@import "../../assets/styles/variable.scss";
+
+.objectDetail {
+  // transition: box-shadow 0.3s ease-in-out;
+  // width:90%;
+  // @include atMdScreen{
+  //   width: 20%;
+  //   margin-left: 5%;
+
+  // }
+  // @include atLgScreen {
+  //   width: 10%;
+
+  // }
+  box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
+
+  &:hover {
+  box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
+  }
+  &__image-container {
+    border: 1px solid $border-color;
+    border-bottom: none;
+  }
+  &__image {
+    display: block;
+    width: 50%;
+    min-height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+
+    @include atMdScreen {
+      min-height: 30px;
+      width: 80%;
+    }
+  }
+  &__container {
+    border: 1px solid $border-color;
+    border-top: none;
+  }
+ 
+  &__container-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: $main-black;
+  }
+  &__container-about {
+    font-size: 12px;
+    text-align: justify;
+
+  }
+}

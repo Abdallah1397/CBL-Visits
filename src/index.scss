@@ -71,6 +71,14 @@ body {
   box-shadow: 0px 0px 15px 0px rgba(50, 64, 190, 0.75);
 
 }
+.btn-danger {
+  background: darkred;
+  color: $main-white;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0px 0px 15px 0px rgba(218, 15, 15, 0.75);
+
+}
 
 .section-bg {
   background: $section-bg;

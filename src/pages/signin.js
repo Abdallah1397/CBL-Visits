@@ -117,7 +117,7 @@ const SignIn = (props) => {
                     >
                       Sign In
                     </button>
-                    {token ? (history.push("/"), history.go(0)) : ""}
+                    {token ? (history.push("/visits"), history.go(0)) : ""}
                     <button
                       className="btn btn-danger square large px-4 py-2 mt-sm-4 mt-1 col-sm-4 col-12"
                       type="reset"

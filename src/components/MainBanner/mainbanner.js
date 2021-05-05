@@ -1,17 +1,16 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import './mainbanner.scss';
+import "./mainbanner.scss";
 
 const MainBanner = () => {
   return (
     <div className="banner">
       <div className="banner__hero">
         <h1 className="banner__title">
-        Community based 
-                  <br />
-                  learning
+          Community based
           <br />
-         ( CBL )
+          learning
+          <br />( CBL )
         </h1>
         <Link to="/visits" className="btn btn-primary">
           show now

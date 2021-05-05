@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="row mt-5 justify-content-center">
-            <img src={Logo} className="col-2 mt-5" />
+            <img src={Logo} className="col-md-2 col-4 mt-5" />
           </div>
           <div className="row justify-content-center">
             <p className="mt-4 fa fa-map-marker location">

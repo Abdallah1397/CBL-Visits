@@ -35,17 +35,15 @@ const NavBar = ({ user, getUser }) => {
     // document.querySelector("#dropDown").classList.("active");
   };
   const handleClickNavbarItem = () => {
-    if (token !== ""){
-
-    // document.querySelector("#menu").classList.remove("active");
-    // document.querySelector("#dropDown").classList.remove("active");
+    if (token !== "") {
+     document.querySelector("#menu").classList.remove("active");
+      // document.querySelector("#dropDown").classList.remove("active");
     }
   };
   const handleClickDropdown = () => {
-    if (token !== ""){
-
-    document.querySelector("#dropDown").classList.toggle("active");
-    document.querySelector("#menu").classList.remove("active");
+    if (token !== "") {
+      document.querySelector("#dropDown").classList.toggle("active");
+      document.querySelector("#menu").classList.remove("active");
     }
   };
   const handleClickDropdownItem = () => {
@@ -69,7 +67,6 @@ const NavBar = ({ user, getUser }) => {
                   className="site-header__link"
                   id="item"
                   onClick={handleClickNavbarItem}
-                  
                 >
                   Home
                 </NavLink>
@@ -106,32 +103,34 @@ const NavBar = ({ user, getUser }) => {
                   <div className="site-header__dropdown">
                     <span onClick={handleClickDropdown}>
                       {user.user_name}
-                      <i className="fas fa-caret-down"></i>
+                      <i className="fas fa-caret-down "></i>
                     </span>
                     <ul className="site-header__submenu dropDown" id="dropDown">
-                      <NavLink exact to="/userProfile" className="site-header__dropdown-content" onClick={handleClickDropdownItem}>
-                        Profile <i className="far fa-user-circle"></i>
+                      <NavLink
+                        exact
+                        to="/userProfile"
+                        className="site-header__dropdown-content"
+                        onClick={handleClickDropdownItem}
+                      >
+                        Profile <i className="fa fa-user-circle"></i>
                       </NavLink>
-                        <a className="site-header__dropdown-content" onClick={onClickLogout}>
-                          Logout{" "}
-                          <i
-                            className="fas fa-sign-out-alt"
-                          ></i>
-                        </a>
+                      <a
+                        className="site-header__dropdown-content"
+                        onClick={onClickLogout}
+                      >
+                        Logout <i className="fas fa-sign-out-alt"></i>
+                      </a>
                     </ul>
                   </div>
                 ) : (
-                  <NavLink style={{ color: "#000" }} to="/signin">
-                    <BiUser className="site-header__icon" />
+                  <NavLink to="/signin">
+                    <i className="fa fa-user-circle fa-2x mt-3" style={{color:"#656565"}}></i>
                   </NavLink>
                 )}
               </li>
               {/* Mobile Bar */}
               <li className="site-header__icons-item">
-                <FaBars
-                  className="site-header__toggle"
-                  onClick={handleClickIcon}
-                />
+                <i className="fa fa-bars fa-lg" onClick={handleClickIcon}></i>
               </li>
             </ul>
           </div>

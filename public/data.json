@@ -30,5 +30,80 @@
       "image": "/facultiesImages/organic-agriculture.jpg",
       "about":"Faculty of Organic Agriculture strives to be among the leading institutions in teaching, learning, research in the field of organic agriculture to serve the Egyptian community."
     }
+  ],
+  "ourvision":[
+    {
+      "id": 1,
+      "title": "Ecology",
+      "image": "/facultiesImages/Ecology.png",
+      "about":" The Faculty of Business and Economics is at the forefront of innovative and alternative models applied in business and economics. We are committed to fostering a system that is simultaneously ethical, successful, and competitive, empowering our graduates with a unique set of opportunities and skills."
+    },
+    {
+      "id": 2,
+      "title": "Social Life",
+      "image": "/facultiesImages/Social_Life.png",
+      "about":"The Faculty of Pharmacy complements the Egyptian pharmaceutical sector and society with capable and skilled graduates who are dedicated to the improvement of pharmaceutical services and facilities. The comprehensive approach towards a sustainable study of pharmaceutics is further enriched by a comprehensive core program."
+    },
+    {
+      "id": 3,
+      "title": "Culture",
+      "image": "/facultiesImages/Culture.png",
+      "about":"Faculty of Physical Therapy pioneers a state-of-the art approach towards teaching and researching the field of Physiotherapy that heals and integrates the mind, body, and energy of the patients in a way that reflects their real needs and problems and solves them in a sustainable and continuous way"
+    },
+    {
+      "id": 4,
+      "title": "Economy",
+      "image": "/facultiesImages/Economy.png",
+      "about":"Faculty of Organic Agriculture strives to be among the leading institutions in teaching, learning, research in the field of organic agriculture to serve the Egyptian community."
+    }
+  ],"ourgoals":[
+    {
+      "id": 1,
+      "title": "CORE PROGRAM",
+      "image": "/facultiesImages/Dancer.png",
+      "about":"SEKEM is convinced that the potential of one individual is evolving with the inclusion of arts and culture. Hence, here at SEKEM-Wahat we focuses on offering people and students space for their individual development and potential unfolding instead of providing them only with universal teaching and learning models. At SEKEM-Wahat we want to evoke questions instead of giving answers."
+    },
+    {
+      "id": 2,
+      "title": "BASIC HEALTH CARE",
+      "image": "/facultiesImages/hospital.png",
+      "about":"With our integrative health care approach we look holistically at each individual. We take into consideration the relation between body, mind and spirit. We start with the implementation of a healthcare booklet to record and monitor the well-being and health condition of the community members. On a regular basis first aid courses are held to provide self reliability and confidence."
+        },
+    {
+      "id": 3,
+      "title": "EDUCATION",
+      "image": "/facultiesImages/book.png",
+      "about":"We believe that holistic education enhances the unfolding of human potential and encourages people to find their own interests. Therefore, we started implementing a holistic educational program for the community members.  For illiterate employees we started the Maho el omia program to educate and prepare them to continue their education in a school program later on. "
+    },
+    {
+      "id": 4,
+      "title": "COMPOST PRODUCTION",
+      "image": "/facultiesImages/Compost_v2.png",
+      "about":"Brown Gold, can be considered the inofficial second name for compost – and that for a good reason. Reclaiming desert land with biodynamic agriculture is based on providing nutrients by adding healthy compost to the sandy soil. Mainly organic matter and cow manure are mixed up and take roughly 3 months to turn into the compost that we are applying to our fields. Each hectare of reclaimed desert land requires more than 70 tons of compost just in the first year and over time the sand turns slowly brown.      "
+    },
+    {
+      "id": 5,
+      "title": "CROP SORTS",
+      "image": "/facultiesImages/Plant_no_border.png",
+      "about":"Biodiversity is a must have for a vital and healthy ecosystem, hence, we’re cultivating a diversity of crops on our pivot fields. In the first phase we started with the cultivation of biodynamic camomile, peppermint and spearmint. For the second phase, we plant additionally peanuts,sparment and peppermint."
+    },
+    {
+      "id": 6,
+      "title": "SOLAR SYSTEM",
+      "image": "/facultiesImages/solar_panel_v2.png",
+      "about":"The Faculty of Pharmacy complements the Egyptian pharmaceutical sector and society with capable and skilled graduates who are dedicated to the improvement of pharmaceutical services and facilities. The comprehensive approach towards a sustainable study of pharmaceutics is further enriched by a comprehensive core program."
+    },
+    {
+      "id": 7,
+      "title": "LAND RECLAMATION",
+      "image": "/facultiesImages/Field_no_border-1.png",
+      "about":"Faculty of Physical Therapy pioneers a state-of-the art approach towards teaching and researching the field of Physiotherapy that heals and integrates the mind, body, and energy of the patients in a way that reflects their real needs and problems and solves them in a sustainable and continuous way"
+    },
+    {
+      "id": 8,
+      "title": "PIVOTS",
+      "image": "/facultiesImages/Pivot_no_border.png",
+      "about":"Faculty of Organic Agriculture strives to be among the leading institutions in teaching, learning, research in the field of organic agriculture to serve the Egyptian community."
+    }
   ]
 }

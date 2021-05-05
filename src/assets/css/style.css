@@ -13,26 +13,15 @@
   font-size: 80px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.active {
-  text-decoration: none;
 
-  background-color: #ada8a8af;
-  border-radius: 8px;
-}
 .paragraphImageFont {
   color: white;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* .backgroundTitle {
-  animation: color-change 5s infinite;
-}
 
-@keyframes color-change {
-  0% { color: white; }
-  50% { color: blue; }
-  100% { color: white; }
-} */
+
+
 /******************************************************************************************************************************************************/
 /******************************************************************************************************************************************************/
 /*LOGIN STYLE*/
@@ -57,13 +46,7 @@
 .sign-up-background {
   background-color: #12235f;
 }
-/* label{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  select,input{
-    border:none;
-    border-bottom: 1px solid black;
-  } */
+
 .errorSchema {
   color: red;
 }
@@ -127,7 +110,6 @@ body {
 body {
   font-family: sans-serif;
 }
-
 .logo {
   position: fixed;
   float: left;
@@ -136,41 +118,6 @@ body {
   /* font-size: 24px; */
   color: white;
 }
-/* nav{
-    width: 100%;
-    z-index: 1;
-    background-color: #162B75;
-  
-  }
-  nav ul{
-    list-style: none;
-    background: rgba(0, 0, 0, 0);
-    overflow: hidden;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-    transition: 1s;
-  }
-  nav.black{
-    background: #162B75;
-    position: sticky;
-  }
-
-  nav ul li{
-    display: inline-block;
-    padding: 20px;
-  }
-  nav ul li NavLink{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .navbarDropdown{
-    z-index: 1;
-  } */
 /******************************************************************************************************************************************************/
 /******************************************************************************************************************************************************/
 /* LANDING PAGE */

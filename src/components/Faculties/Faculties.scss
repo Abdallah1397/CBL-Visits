@@ -20,7 +20,7 @@
     box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
   }
   &__image-container {
-    border: 1px solid $border-color;
+    border: 13px solid $border-color;
     border-bottom: none;
   }
   &__image {
@@ -29,10 +29,11 @@
     min-height: 200px;
     object-fit: contain;
     margin: 0 auto;
+  
 
     @include atMdScreen {
       min-height: 350px;
-      width: 80%;
+      width: 90%;
     }
   }
   &__container {
@@ -40,15 +41,21 @@
     border: 1px solid $border-color;
     border-top: none;
   }
-  &__container-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  // &__container-heading {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  // }
   &__container-title {
-    font-weight: 400;
-    font-size: 1rem;
+    font-weight: bolder;
+    font-size: 20px;
     margin-bottom: 0.5rem;
     color: $main-black;
+    text-align: center;
+  }
+  &__about{
+    text-align: center;
+    font-size: 12px;
+
   }
 }

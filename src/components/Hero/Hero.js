@@ -3,6 +3,7 @@ import "./Hero.scss";
 import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
+// hero component that appear in a fixed image and take a title above it
 const Hero = ({ title, subTitle,showButton }) => {
   return (
     <section className="hero mt-5">
