@@ -37,6 +37,7 @@ const NavBar = ({ user, getUser }) => {
   const handleClickNavbarItem = () => {
     if (token !== "") {
      document.querySelector("#menu").classList.remove("active");
+
       // document.querySelector("#dropDown").classList.remove("active");
     }
   };
@@ -72,26 +73,25 @@ const NavBar = ({ user, getUser }) => {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  exact
-                  to="/visits"
+                <a
+                  
+                  href="/visits"
                   className="site-header__link"
                   id="item"
                   onClick={handleClickNavbarItem}
                 >
                   Visits
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink
-                  exact
-                  to="/about"
+                <a
+                  href="/about"
                   className="site-header__link"
                   id="item"
                   onClick={handleClickNavbarItem}
                 >
                   About
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>

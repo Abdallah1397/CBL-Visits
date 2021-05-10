@@ -1,3 +1,4 @@
+// Visits Type used to get the visits 
 export default {
     GET_ALL_VISITS_REQUEST:"GET_ALL_VISITS_REQUEST",
     GET_ALL_VISITS_SUCCESS:"GET_ALL_VISITS_SUCCESS",

@@ -14,7 +14,7 @@ const MainVisits = ({
     <div
       className="row col-md-3 col-sm-5 co1-12 mt-5  visits-div mr-sm-5 ml-3 justify-content-center"
       key={id}
-    >
+      data-aos="zoom-in-left" data-aos-duration="2000"    >
       <div className="row mb-3">
         <img src={mainImage} className="col-12" alt="Image" />
       </div>

@@ -23,7 +23,7 @@ const About = () => {
   // map function to iterate over the our vision data that returned from the json file
   const OurVision = vision.map((item) => {
     return (
-      <div className="col-md-3 col-12">
+      <div className="col-md-3 col-12" data-aos="zoom-in-left" data-aos-duration="2000">
         <ObjectDetail
           id={item.id}
           image={item.image}
@@ -37,7 +37,7 @@ const About = () => {
   // map function to iterate over the our goals data that returned from the json file
   const OurGoal = goals.map((item) => {
     return (
-      <div className="col-md-3 col-12">
+      <div className="col-md-3 col-12" data-aos="zoom-in-left" data-aos-duration="2000">
         <ObjectDetail
           id={item.id}
           image={item.image}

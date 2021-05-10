@@ -2,19 +2,6 @@
 @import "../../assets/styles/variable.scss";
 
 .objectDetail {
-  // transition: box-shadow 0.3s ease-in-out;
-  // width:90%;
-  // @include atMdScreen{
-  //   width: 20%;
-  //   margin-left: 5%;
-
-  // }
-  // @include atLgScreen {
-  //   width: 10%;
-
-  // }
-  box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
-
   &:hover {
   box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
   }
@@ -47,7 +34,7 @@
   }
   &__container-about {
     font-size: 12px;
-    text-align: justify;
+    text-align: center;
 
   }
 }

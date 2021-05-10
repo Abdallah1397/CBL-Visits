@@ -1,5 +1,7 @@
 import Types from "../types/authTypes";
 
+
+
 // LOGIN USER
 export const getLoginSuccess = ({ data }) => ({
   type: Types.LOGIN_SUCCESS,

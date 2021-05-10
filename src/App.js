@@ -14,15 +14,17 @@ import setAuthToken from './utils/apiHelpers';
 import All_PAGES from "./pages/allpages";
 import axios from "axios";
 function App() {
-  // axios.defaults.withCredentials=true;
+
+  // Configure The saga middleware 
   const sagaMiddleware = createSagaMiddleWare();
   const store = createStore(
     reducers,
     composeWithDevTools(applyMiddleware(sagaMiddleware))
   );
   sagaMiddleware.run(rootSaga);
+
+  // get token to use it in auth
   const token=Cookies.get('token');
-  console.log(token,"token");
   axios.interceptors.request.use(
     config=>{
       config.headers.authorization=`Token ${token}`;
@@ -39,9 +41,8 @@ function App() {
       <ToastContainer />
       <Router>
         <div className="App">
+        {/* Render the All Pages that contain the page of the website */}
         <All_PAGES />
-        
-
         </div>
       </Router>
     </Provider>

@@ -15,3 +15,6 @@ export const getUserFail=()=>({
 export const setLoading=()=>({
     type:Types.SET_LOADING,
 });
+
+// Actions File 
+// 1- GetRequest => fuction Return Action (to get the request)

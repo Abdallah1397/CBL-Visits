@@ -14,7 +14,7 @@ const Faculties = () => {
   //  map fuction to iterate over the data
   const allFaculties = faculties.map((item) => {
     return (
-      <div className="faculties mt-5" key={item.id}>
+      <div className="faculties mt-5" key={item.id} data-aos="zoom-in-left" data-aos-duration="2000">
         <div className="faculties__image-container">
           <img className="faculties__image" src={item.image} />
         </div>
