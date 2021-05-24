@@ -16,7 +16,7 @@ const MainVisits = ({
       key={id}
       data-aos="zoom-in-left" data-aos-duration="2000"    >
       <div className="row mb-3">
-        <img src={mainImage} className="col-12" alt="Image" />
+        <img src={mainImage} className="col-12" alt="Image" width="200px" height="300px" />
       </div>
       <div className="row col-12">
         <label className="col-6 text-left">Visit Name</label>

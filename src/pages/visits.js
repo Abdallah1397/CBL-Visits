@@ -72,18 +72,16 @@ const Visits = ({ visits, getVisits }) => {
     .slice(pagesVisited, pagesVisited + visitsPerPage)
     .map((item) => {
       return (
-        <>
-          <MainVisits
-            id={item.id}
-            mainImage={item.main_img}
-            visitName={item.name}
-            leader={item.leader}
-            visitCourse={item.visit_course}
-            start={item.start}
-            to={item.to}
-            buttonShow={false}
-          />
-        </>
+        <MainVisits
+          id={item.id}
+          mainImage={item.main_img}
+          visitName={item.name}
+          leader={item.leader}
+          visitCourse={item.visit_course}
+          start={item.start}
+          to={item.to}
+          buttonShow={false}
+        />
       );
     });
   return (
@@ -109,7 +107,7 @@ const Visits = ({ visits, getVisits }) => {
             </div>
           </div>
         ) : (
-          <>
+          <div>
             {/* Visits Div that was created above with MAP function */}
             <div className=" row col-12 justify-content-center mt-5">
               <div className="row justify-content-center">{displayVisits}</div>
@@ -117,19 +115,19 @@ const Visits = ({ visits, getVisits }) => {
             {/* React Paginate to make pagination in the page */}
             <div className="row col-12 justify-content-center mt-5">
               <ReactPaginate
-                previousLabel={"Previous"}
-                nextLabel={"Next"}
+                previousLabel={"← Previous"}
+                nextLabel={"Next →"}
                 pageCount={pageCount}
                 onPageChange={changePage}
-                containerClassName={"paginationBttns"}
-                previousLinkClassName={"perviousBttn"}
-                nextLinkClassName={"nextBttn"}
-                disabledClassName={"PaginationDisabled"}
-                activeClassName={"PaginationActive"}
+                containerClassName={"pagination"}
+                previousLinkClassName={"pagination__link"}
+                nextLinkClassName={"pagination__link"}
+                disabledClassName={"pagination__link--disabled"}
+                activeClassName={"pagination__link--active"}
                 className="mt-5"
               />
             </div>
-          </>
+          </div>
         )}
       </div>
       <Hero title="Community Based Learning" showButton={true} />{" "}
