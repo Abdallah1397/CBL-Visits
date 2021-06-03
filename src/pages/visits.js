@@ -6,6 +6,8 @@ import ReactPaginate from "react-paginate";
 import Title from "../components/Title/Title";
 import MainVisits from "../components/Visits/visits";
 import Hero from "../components/Hero/Hero";
+import Banner from "../components/Banner/Banner";
+import visitsCover from '../assets/images//various_photos/shutterstock_1198655401a.jpg';
 const Visits = ({ visits, getVisits }) => {
   useEffect(() => {
     getVisits();
@@ -86,8 +88,8 @@ const Visits = ({ visits, getVisits }) => {
     });
   return (
     <div className="">
-      <div className="container-fluid visitsCover"></div>
-      <div className="container-container-fluid">
+    <Banner image={visitsCover} />
+    <div className="container-container-fluid">
         <Title title="Visits" />
         {/* <form
           className="row col-12 justify-content-center mt-5"

@@ -5,6 +5,7 @@ import MainBanner from "../components/MainBanner/mainbanner";
 import Faculties from "../components/Faculties/Faculties";
 import Content from "../components/Content/Content";
 import Hero from "../components/Hero/Hero";
+import AnimatedCounter from "../components/AnimatedCounter/animatedCounter";
 const LandingPage = () => {
   const [faculties, setFaculties] = useState([]);
   useEffect(() => {
@@ -24,7 +25,7 @@ const LandingPage = () => {
     );
   });
   return (
-    <>
+    <div>
       <MainBanner className="mb-5" />
       <Content
         title="Heliopolis University"
@@ -38,6 +39,7 @@ const LandingPage = () => {
             "
       />
       <Faculties className="mt-5" />
+      <Hero title="Community Based Learning" subTitle="Show The Visits Now" />
       <Content
         title="What's CBL"
         topic="We empower our students to be the champions of sustainable
@@ -49,12 +51,15 @@ const LandingPage = () => {
             act to shape a better future for all of us.
             "
       />
-         <Hero
-        title="Community Based Learning"
-        subTitle="Show The Visits Now"
+      <AnimatedCounter
+        counter1={200}
+        fact1="Investments"
+        counter2={200}
+        fact2="Projects"
+        counter3={200}
+        fact3="Beneficiaries"
       />
-     
-    </>
+    </div>
   );
 };
 

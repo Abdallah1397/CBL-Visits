@@ -39,7 +39,6 @@ const UserProfile = ({ user, getUser }) => {
     );
   };
   return (
-    //
     <div>
        <div className="userName">
         </div>

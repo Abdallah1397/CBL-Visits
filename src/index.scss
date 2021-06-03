@@ -88,3 +88,20 @@ body {
       background-color: darkslategrey;
   
 }
+// scroll style
+/* Scroll Up Style*/
+.scrollTop {
+  position: fixed;
+  width: 180%;
+  bottom: 20px;
+  height: 10%;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  &:hover{
+    opacity: 1;
+
+  }
+}
