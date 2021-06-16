@@ -1,0 +1,10 @@
+@import '../../assets/styles/mixins';
+@import '../../assets/styles/variable';
+
+.item{
+    height: 60vh;
+    @include atSmallestScreen{
+        height: 20vh;
+    }
+  
+}

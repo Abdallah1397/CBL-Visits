@@ -106,6 +106,10 @@
       color: $primary-color;
       text-decoration: none;
     }
+    @include atSmallestScreen{
+      font-size: 12px;
+
+    }
     @include atXLScreen {
       font-size: 20px;
     }

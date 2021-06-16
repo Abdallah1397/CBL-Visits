@@ -53,11 +53,11 @@ const LandingPage = () => {
       />
       <AnimatedCounter
         counter1={200}
-        fact1="Investments"
+        fact1="Visits"
         counter2={200}
         fact2="Projects"
         counter3={200}
-        fact3="Beneficiaries"
+        fact3="Students"
       />
     </div>
   );

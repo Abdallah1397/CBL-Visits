@@ -6,6 +6,7 @@ import Title from "../components/Title/Title";
 import Content from "../components/Content/Content";
 import Hero from "../components/Hero/Hero";
 import ObjectDetail from "../components/ObjectDetails/ObjectDetail";
+import SliderBanner from "../components/SliderBanner/sliderBanner";
 const About = () => {
   // state to safe the data of ourVision that returned from the json file
   const [vision, setVison] = useState([]);
@@ -48,9 +49,9 @@ const About = () => {
     );
   });
   return (
-    <div className="contanier-fulid">
-      <Banner image={AboutBanner} />
-      <Content
+    <div>
+    <SliderBanner />
+    <Content
         title="Our Vision"
         topic="With SEKEM Wahat & Sharkya Greening The Desert we’re reclaiming about 1.000 hectar of desert land and turning it into fertile land again.
         We’re encouraging people to build a sustainable community, that is relying on the pricipals of bio-dynamic agriculture."

@@ -63,7 +63,7 @@ const UserProfile = ({ user, getUser }) => {
               <h1 className="">{user.user_name}</h1>
               <div className="">
                 <ul className="mt-5">
-                  <li>
+                  <li style={{listStyle:"none"}}>
                     <div className="row">
                       <div className="col-md-5 col-5">
                         <i className="fas fa-graduation-cap text-orange"></i>
@@ -74,7 +74,7 @@ const UserProfile = ({ user, getUser }) => {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li style={{listStyle:"none"}}>
                     <div className="row">
                       <div className="col-md-5 col-5">
                         <i className="far fa-file text-lightred"></i>
@@ -85,7 +85,7 @@ const UserProfile = ({ user, getUser }) => {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li style={{listStyle:"none"}}>
                     <div className="row">
                       <div className="col-md-5 col-5">
                         <i className="fas fa-map-marker-alt text-green"></i>
@@ -96,7 +96,7 @@ const UserProfile = ({ user, getUser }) => {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li style={{listStyle:"none"}}>
                     <div className="row">
                       <div className="col-md-5 col-5">
                         <i className="fas fa-mobile-alt text-purple"></i>
@@ -107,7 +107,7 @@ const UserProfile = ({ user, getUser }) => {
                       </div>
                     </div>
                   </li>
-                  <li>
+                  <li style={{listStyle:"none"}}>
                     <div className="row">
                       <div className="col-md-5 col-5">
                         <i className="fas fa-envelope text-pink"></i>
