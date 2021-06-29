@@ -2,9 +2,9 @@ import React from "react";
 import "./ObjectDetail.scss";
 const ObjectDetail = ({ id, image, title, about }) => {
   return (
-    <div className="container objectDetail">
-      <div className="row mb-5">
-        <div className="col-12 " key={id} >
+    <div className="objectDetail">
+      <div className="">
+        <div className="" key={id} >
           <div className="objectDetail__image-container">
             <img className="objectDetail__image" src={image} />
           </div>

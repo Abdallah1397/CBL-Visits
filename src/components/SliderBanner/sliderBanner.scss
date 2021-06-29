@@ -1,10 +1,25 @@
 @import '../../assets/styles/mixins';
 @import '../../assets/styles/variable';
 
-.item{
-    height: 60vh;
-    @include atSmallestScreen{
-        height: 20vh;
+.carouselBanner {
+    &__image-div {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      object-fit: contain;
+      @include atSmallestScreen {
+        min-height: 30vh;
+      }
+      @include atSmScreen {
+        min-height: 40vh;
+      }
+      @include atMdScreen {
+        min-height: 50vh;
+      }
+      @include atLgScreen {
+        min-height: 60vh;
+      }
     }
-  
-}
+    .carousel-indicators li { visibility: hidden; }
+
+  }

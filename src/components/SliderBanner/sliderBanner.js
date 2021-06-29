@@ -16,18 +16,27 @@ const SliderBanner = () => {
         </ol>
 
         <div className="carousel-inner ">
-          <div className="item active ">
-            <img src={About} alt="Los Angeles" width="100%" className="carouselBanner__maindiv" />
-          </div>
+        <div className="item active ">
+        <div
+          className="carouselBanner__image-div"
+          style={{ backgroundImage: `url(${About})` }}
+        ></div>
+      </div>
 
-          <div className="item">
-            <img src={About} alt="Chicago" width="100%"  className="" />
-          </div>
+      <div className="item">
+        <div
+          className="carouselBanner__image-div"
+          style={{ backgroundImage: `url(${About})` }}
+        ></div>{" "}
+      </div>
 
-          <div className="item">
-            <img src={About} alt="New york" width="100%"  className=""/>
-          </div>
-        </div>
+      <div className="item">
+        <div
+          className="carouselBanner__image-div"
+          style={{ backgroundImage: `url(${About})` }}
+        ></div>{" "}
+      </div>
+    </div>
 
         <a
           className="left carousel-control"
