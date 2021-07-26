@@ -5,9 +5,9 @@ import { getVisitDetailsRequest } from "../store/actions/visitDetails";
 import { getUserRequest } from "../store/actions/user";
 import Cookies, { set } from "js-cookie";
 import axios from "axios";
-import LoadingScreen from "react-loading-screen";
 import Hero from "../components/Hero/Hero";
 import Title from "../components/Title/Title";
+import LoadingSpinner from "../components/spinner/spinner";
 
 
 // Visit Detail Page that get the visit details 
@@ -39,7 +39,9 @@ const VisitDetailPage = ({ user, getUser, visitDetail, getVisitDetail }) => {
       })
       .then((res) => {
         setResult(res.data);
+        setLoading(false);
         history.go(0);
+
       });
   };
   return (
@@ -133,6 +135,9 @@ const VisitDetailPage = ({ user, getUser, visitDetail, getVisitDetail }) => {
               </button>
             </div>
             <h4 className="row justify-content-center mb-5">
+            <div className="">
+            {loading ? <LoadingSpinner /> : "" }
+            </div>
               {visitDetail.current_user.reason}
             </h4>
              

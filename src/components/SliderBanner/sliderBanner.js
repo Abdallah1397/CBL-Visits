@@ -1,5 +1,8 @@
 import "./sliderBanner.scss";
-import About from "../../assets/images/various_photos/aboutBanner.png";
+import About2 from "../../assets/images/various_photos/Maximilian-Abouleish-Solar-Pumping-Project-Egypt-Desert.png";
+import About1 from "../../assets/images/various_photos/SEKEM-Sophia-Future-1-1.jpg";
+import About from "../../assets/images/various_photos/SEKEMsophia-featured.jpg";
+
 
 const SliderBanner = () => {
   return (
@@ -26,14 +29,14 @@ const SliderBanner = () => {
       <div className="item">
         <div
           className="carouselBanner__image-div"
-          style={{ backgroundImage: `url(${About})` }}
+          style={{ backgroundImage: `url(${About1})` }}
         ></div>{" "}
       </div>
 
       <div className="item">
         <div
           className="carouselBanner__image-div"
-          style={{ backgroundImage: `url(${About})` }}
+          style={{ backgroundImage: `url(${About2})` }}
         ></div>{" "}
       </div>
     </div>
