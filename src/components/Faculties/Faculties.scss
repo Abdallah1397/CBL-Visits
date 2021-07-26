@@ -1,6 +1,7 @@
 @import "../../assets/styles/mixins.scss";
 @import "../../assets/styles/variable.scss";
 
+
 .faculties {
   transition: box-shadow 0.3s ease-in-out;
   width:90%;
@@ -9,12 +10,10 @@
   @include atMdScreen{
     width: 45%;
     margin-left: 3%;
-
   }
   @include atLgScreen {
     width: 30%;
     margin-left:3%;
-
   }
   &:hover {
     box-shadow: 20px 20px 20px 20px rgba(230, 230, 232, 1);
@@ -25,12 +24,10 @@
   }
   &__image {
     display: block;
-    width: 60%;
+    width: 100%;
     min-height: 200px;
     object-fit: contain;
     margin: 0 auto;
-  
-
     @include atMdScreen {
       min-height: 350px;
       width: 90%;
@@ -56,6 +53,5 @@
   &__about{
     text-align: center;
     font-size: 12px;
-
   }
 }
